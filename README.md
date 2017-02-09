@@ -1,10 +1,5 @@
-Instructions : Make any necessary assumption, and clearly state the assumptions made.
-
-Expectations : Write the compiling code using your choice of IDE.
-
 Problem Statement :-
-
-Problem : Implement a standalone flight search engine that lists matching flights for a traveler who is looking to fly between 2 locations on a given date. The input locations should be in 3-letter location code format as present in the airlines flight data.
+Implement a standalone flight search engine that lists matching flights for a traveler who is looking to fly between 2 locations on a given date. The input locations should be in 3-letter location code format as present in the airlines flight data.
 
 Specifications : 
 
@@ -22,7 +17,7 @@ You are given 3 CSV files, each containing the available flights data for Britis
 
 6) FLIGHT_DURN - Flight duration (HH.mm) from departure location to the arrival location.
 
-FARE - This is the fare of the flight per person in $ (US Dollars).
+7) FARE - This is the fare of the flight per person in $ (US Dollars).
 
 Assumptions and Constraints : 
 
@@ -52,15 +47,7 @@ AF299|FRA|LHR|20-11-2010|0600|
 
 AF118|DUB|MUC|21-12-2010|1410|
 
-AF371|AMS|MAD|30-11-2010|1210|
 
-AF453|BOS|CDG|20-11-2010|1350|
-
-AF544|BOM|LHR|10-12-2010|1150|
-
-AF271|AMS|MAD|27-10-2010|1100|
-
-AF249|JFK|LHR|01-12-2010|1550|
 
 LUFTHANSA AIRLINES
 
@@ -70,15 +57,6 @@ LH348|DEL|AMS|30-11-2010|2325|
 
 LH201|LHR|MEL|21-11-2010|0230|
 
-LH342|VIE|JFK|20-10-2010|1130|
-
-LH451|LHR|PEK|30-11-2010|1130|
-
-LH119|FRA|CDG|06-12-2010|1220|
-
-LH929|FRA|LHR|10-12-2010|0100|
-
-LH801|DUB|MUC|11-12-2010|1710|
 
 BRITISH AIRWAYS
 
@@ -88,26 +66,5 @@ BA123|DEL|AMS|12-10-2010|0050|
 
 BA412|BOS|CDG|31-12-2010|0210|
 
-BA413|BOS|AMS|30-11-2010|1530|
 
-BA111|LHR|PEK|30-10-2010|2340|
 
-BA765|LHR|BOM|31-12-2010|1420|
-
-BA322|CDG|NRT|15-11-2010|0010|
-
-BA438|DEL|AMS|30-11-2010|1325|
-
-BA102|LHR|MEL|01-12-2010|0330|
-
-BA234|VIE|JFK|20-10-2010|1230|
-
-Evaluation criteria : 
-
-* Code Completeness/ Correctness
-
-* Code Structure and quality: Modularity, usage of OO principles, size of classes/functions,
-
-* Choice of data structures
-
-* class/function/variable names, package/class structure
